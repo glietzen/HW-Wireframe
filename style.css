@@ -1,0 +1,112 @@
+/* Core Sytles */
+
+body {
+    background: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: #ebebeb;
+    color: #777;
+    margin: 5px 20px;
+    text-align: center;
+}
+
+#navbar {
+    background: #ebebeb;
+    color: #777;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: 5px 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#main {
+    float: left;
+    width: 65%;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 2.5%;
+    min-height: 300px;
+}
+
+#sidebar {
+    float: right;
+    width: 25%;
+    background: #ebebeb;
+    color: #777;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    margin: 2.5%;
+    min-height: 300px;
+}
+
+#main-footer {
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding: 20px;
+    margin: 5px 20px;
+}
+
+#main {
+    background: #ebebeb;
+    text-align: center;
+}
+
+article {
+    background: #777;
+    margin: 20px;
+    color: #ebebeb;
+    min-height: 150px;
+    padding-top: 2px;
+}
+
+article h3,
+article p {
+    color: #777;
+    background: #ebebeb;
+    margin: 5px;
+}
+
+
+
+@media(max-width: 600px){
+    #main {
+        width: 100%;
+        float: none;
+    }
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}
